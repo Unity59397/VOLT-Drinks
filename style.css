@@ -169,7 +169,27 @@ body{
 
 
 
+aside {
+  position: relative;
+  width: 850px;
+  max-width: 80vw;
+  height: auto;
+  margin: 24px 16px 0 auto;
+}
 
+aside img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  aside {
+    width: 680px;
+    max-width: 100%;
+    margin: 16px auto 0;
+  }
+}
 
 
 
@@ -194,7 +214,7 @@ hr{
         transparent,
         #ffaf09,
         #098fe1,
-        #ffaf09,
+        #5b2a9e,
         transparent
     );
 }
