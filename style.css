@@ -129,28 +129,42 @@ body{
 }
 .footBox {
     background-color: #ffaf09;
-    width: 947px;
-    height: 35px;
+    width: 100%;
+    max-width: 964px;
+    height: auto;
 
     border: 1px solid #ffaf09;
     border-radius: 40px;
-    padding: 10px 20px;
+    padding: 10px 30px;
 
     margin: 0 auto;
     margin-top: -70px;
 
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
 }
 
 .footText{
     color:#098fe1;
     margin: 0;
     font-family: 'Titan One', sans-serif;
-    font-size: 20px;
-    
+    font-size: 22px;
+    flex: 1;
+    text-align: center;
+    padding: 6px 0;
     text-decoration: none;
+}
+
+.footAd{
+    color:#5b2a9e;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Titan One', sans-serif;
+    flex: 1;
+    text-align: center;
 }
 
 
