@@ -1,6 +1,6 @@
-body{
-    background-color: #83c4e7;
-    margin:0;
+body {
+  background-color: #83c4e7;
+  margin: 0;
 }
 
 .logo-text {
@@ -11,7 +11,7 @@ body{
 
   margin: 0;
   position: relative;
-  padding-bottom:16px;
+  padding-bottom: 16px;
 
   background-color: #ffaf09;
   border: 6px solid #ffaf09;
@@ -55,41 +55,42 @@ body{
 
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
 .nav-buttonHome:hover {
-    box-shadow: 0 0 10px #fff, 0 0 25px #ffaf09, 0 0 50px #ffaf09;
-    transform: scale(1.05) rotate(350deg) translateY(-5px);
+  box-shadow: 0 0 10px #fff, 0 0 25px #ffaf09, 0 0 50px #ffaf09;
+  transform: scale(1.05) rotate(350deg) translateY(-5px);
 }
 
 
-.nav-buttonOrder{
-    font-size:40px;
-    font-family: 'Titan One', sans-serif;
+.nav-buttonOrder {
+  font-size: 40px;
+  font-family: 'Titan One', sans-serif;
 
-    width:124px;
-    height:108px;
-    background-color:#ffaf09;
-    border: 10px solid #ffaf09;
-    border-radius: 50%;
-    
-    text-decoration: none;
-    color:#098fe1;
+  width: 124px;
+  height: 108px;
+  background-color: #ffaf09;
+  border: 10px solid #ffaf09;
+  border-radius: 50%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-self: end;
+  text-decoration: none;
+  color: #098fe1;
 
-    transform: rotate(10deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: end;
 
-    margin-right:1.5rem;
-    margin-top: 1.5rem;
+  transform: rotate(10deg);
 
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .nav-buttonOrder:hover {
-    box-shadow: 0 0 10px #fff, 0 0 25px #ffaf09, 0 0 50px #ffaf09;
-    transform: scale(1.05) rotate(10deg) translateY(-5px);
+  box-shadow: 0 0 10px #fff, 0 0 25px #ffaf09, 0 0 50px #ffaf09;
+  transform: scale(1.05) rotate(10deg) translateY(-5px);
 }
 
 .nav-buttonHome,
@@ -97,17 +98,17 @@ body{
   will-change: transform, box-shadow;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(-50px);
-    flex-direction: column;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50px);
+  flex-direction: column;
 }
 
-.hero-image{
-    width:507px;
-    height: 761px;
+.hero-image {
+  width: 507px;
+  height: 761px;
 }
 
 .tagline-svg {
@@ -115,56 +116,57 @@ body{
   margin: 0 auto;
   margin-top: -100px;
 
-  font-family: 'Titan One',sans-serif;
+  font-family: 'Titan One', sans-serif;
   font-size: 25px;
 }
 
-.text{
-    font-family: 'Titan One', sans-serif;
-    font-size:25px;
+.text {
+  font-family: 'Titan One', sans-serif;
+  font-size: 25px;
 
-    display:block;
-    margin: 0 auto;
-    margin-top: -70px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -70px;
 }
+
 .footBox {
-    background-color: #ffaf09;
-    width: 100%;
-    max-width: 964px;
-    height: auto;
+  background-color: #ffaf09;
+  width: 100%;
+  max-width: 964px;
+  height: auto;
 
-    border: 1px solid #ffaf09;
-    border-radius: 40px;
-    padding: 10px 30px;
+  border: 1px solid #ffaf09;
+  border-radius: 40px;
+  padding: 10px 30px;
 
-    margin: 0 auto;
-    margin-top: -70px;
+  margin: 0 auto;
+  margin-top: -70px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
 }
 
-.footText{
-    color:#098fe1;
-    margin: 0;
-    font-family: 'Titan One', sans-serif;
-    font-size: 22px;
-    flex: 1;
-    text-align: center;
-    padding: 6px 0;
-    text-decoration: none;
+.footText {
+  color: #098fe1;
+  margin: 0;
+  font-family: 'Titan One', sans-serif;
+  font-size: 22px;
+  flex: 1;
+  text-align: center;
+  padding: 6px 0;
+  text-decoration: none;
 }
 
-.footAd{
-    color:#5b2a9e;
-    text-decoration: none;
-    text-align: center;
-    font-size: 22px;
-    font-family: 'Titan One', sans-serif;
-    flex: 1;
-    text-align: center;
+.footAd {
+  color: #5b2a9e;
+  text-decoration: none;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Titan One', sans-serif;
+  flex: 1;
+  text-align: center;
 }
 
 
@@ -191,18 +193,86 @@ aside img {
   }
 }
 
-hr{
-    color: aliceblue;
-    margin-top: -20px;
+hr {
+  color: aliceblue;
+  margin-top: -20px;
 
-    border: none;
-    height: 2px;
-    background: linear-gradient(
-        90deg,
-        transparent,
-        #ffaf09,
-        #098fe1,
-        #5b2a9e,
-        transparent
-    );
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg,
+      transparent,
+      #ffaf09,
+      #098fe1,
+      #5b2a9e,
+      transparent);
+}
+
+.feature-section {
+  display: flex;
+  align-items: center;
+}
+
+.hero-article {
+  flex: 1;
+  /* takes up the left half */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside {
+  flex: 1;
+  /* takes up the right half */
+  position: relative;
+  width: auto;
+  /* remove your old fixed 850px width, let flex handle sizing */
+  max-width: 80vw;
+  margin: 24px 16px 0 0;
+  /* remove margin-left: auto, flex now handles positioning */
+}
+
+.text-box {
+  background-color: #ffaf09;
+  border-radius: 30px;
+  padding: 2rem 3rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 114px 6px rgba(255, 173, 9, 0.9);
+  -moz-box-shadow: 0px 0px 114px 6px rgba(255, 173, 9, 0.9);
+  box-shadow: 0px 0px 114px 6px rgba(255, 173, 9, 0.9);
+}
+
+.text-boxTitle {
+  font-family: 'Titan One', sans-serif;
+  background-image: linear-gradient(to right, #098fe1, #5b2a9e);
+  color: transparent;
+  background-clip: text;
+  font-size: 24px;
+  margin: 0;
+}
+
+.text-boxTitle1 {
+  font-family: 'Titan One', sans-serif;
+  background-image: linear-gradient(to right, green, green, red, lime, lime);
+  color: transparent;
+  background-clip: text;
+  font-size: 24px;
+  margin: 0;
+}
+
+.text-boxTitle2 {
+  font-family: 'Titan One', sans-serif;
+  background-image: linear-gradient(to right, royalblue, cornflowerblue, red, darkred);
+  color: transparent;
+  background-clip: text;
+  font-size: 24px;
+  margin: 0;
+}
+
+.text-boxP {
+  font-family: 'Titan One', sans-serif;
+  font-size: 20px;
+  color: #098fe1;
+  margin: 10px 0 0 0;
 }
