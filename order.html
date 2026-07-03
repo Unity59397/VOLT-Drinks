@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order VOID</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
+
+    <script src="bubble.js" defer></script>
+    <script src="order.js" defer></script>
+    <script src="transition.js" defer></script>
+</head>
+
+<body>
+    <div class="hero-wrapper order-hero">
+        <canvas id="bubble-canvas"></canvas>
+
+        <header class="site-header">
+            <a class="nav-buttonHome" href="index.html">HOME</a>
+            <h1 class="logo-text">VOID</h1>
+            <a class="nav-buttonOrder nav-buttonOrder--active" href="order.html">ORDER</a>
+        </header>
+
+        <div class="order-title-band">
+            <h2 class="order-title">PLACE YOUR ORDER</h2>
+            <p class="order-subtitle">Pick your storm. Every can hits different.</p>
+        </div>
+    </div>
+
+    <div class="order-layout">
+
+        <section class="order-flavors" aria-label="Flavor selection">
+
+            <article class="flavor-card" data-flavor="original" data-price="2.99">
+                <div class="can-visual can-visual--original">
+                    <span class="can-badge">VOID</span>
+                </div>
+                <h3 class="flavor-name">Original</h3>
+                <p class="flavor-tag">Sunshine in every sip. Storm in every sec.</p>
+                <div class="flavor-footer">
+                    <span class="flavor-price">$2.99</span>
+                    <div class="qty-stepper" data-flavor="original">
+                        <button class="qty-btn qty-btn--minus" type="button" aria-label="Remove one Original">–</button>
+                        <span class="qty-value" data-qty="original">0</span>
+                        <button class="qty-btn qty-btn--plus" type="button" aria-label="Add one Original">+</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flavor-card" data-flavor="watermelon" data-price="2.99">
+                <div class="can-visual can-visual--watermelon">
+                    <span class="can-badge">VOID</span>
+                </div>
+                <h3 class="flavor-name">Watermelon &amp; Lime</h3>
+                <p class="flavor-tag">Sweet strikes first. Sharp finishes it.</p>
+                <div class="flavor-footer">
+                    <span class="flavor-price">$2.99</span>
+                    <div class="qty-stepper" data-flavor="watermelon">
+                        <button class="qty-btn qty-btn--minus" type="button" aria-label="Remove one Watermelon and Lime">–</button>
+                        <span class="qty-value" data-qty="watermelon">0</span>
+                        <button class="qty-btn qty-btn--plus" type="button" aria-label="Add one Watermelon and Lime">+</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flavor-card" data-flavor="icefire" data-price="3.29">
+                <div class="can-visual can-visual--icefire">
+                    <span class="can-badge">VOID</span>
+                </div>
+                <h3 class="flavor-name">Ice &amp; Spiced</h3>
+                <p class="flavor-tag">Cold front. Hot finish.</p>
+                <div class="flavor-footer">
+                    <span class="flavor-price">$3.29</span>
+                    <div class="qty-stepper" data-flavor="icefire">
+                        <button class="qty-btn qty-btn--minus" type="button" aria-label="Remove one Ice and Spiced">–</button>
+                        <span class="qty-value" data-qty="icefire">0</span>
+                        <button class="qty-btn qty-btn--plus" type="button" aria-label="Add one Ice and Spiced">+</button>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <aside class="storm-tracker" aria-label="Order summary">
+            <h2 class="tracker-heading">STORM TRACKER</h2>
+
+            <div class="tracker-meter" aria-hidden="true">
+                <div class="tracker-meter-fill" id="tracker-meter-fill"></div>
+            </div>
+
+            <ul class="tracker-list" id="tracker-list">
+                <li class="tracker-empty" id="tracker-empty">Your storm tracker is empty. Add a flavor to start the surge.</li>
+            </ul>
+
+            <div class="tracker-total-row">
+                <span>Subtotal</span>
+                <span id="tracker-subtotal">$0.00</span>
+            </div>
+
+            <button class="charge-button" id="charge-button" type="button" disabled>
+                CHARGE IT UP ⚡
+            </button>
+        </aside>
+
+    </div>
+
+    <footer class="order-footer">
+        <p>Zero sugar. Max chaos. Cans ship within 2–3 business days.</p>
+    </footer>
+
+</body>
+
+</html>
